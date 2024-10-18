@@ -157,7 +157,7 @@ export const allProducts = [
   },
   {
     id: 9,
-    name: "Apple iPad Pro 7th Generation 512GB ",
+    name: "Apple iPad Pro 7th Gen 512GB ",
     price: 5000,
     description:
       "Apple iPad Pro 7th Generation Apple M4 Chip |13-Inch Display (512GB, WiFi, MVX23 Space Black and silver)",
@@ -168,7 +168,7 @@ export const allProducts = [
   },
   {
     id: 10,
-    name: "Apple iPad Pro 7th Generation Apple 1TB ",
+    name: "Apple iPad Pro 7thGen Apple 1TB ",
     price: 6400,
     description:
       "Apple iPad Pro 7th Generation Apple M4 Chip |13-Inch Display (1TB, WiFi, MVX23 Space grey) ",
