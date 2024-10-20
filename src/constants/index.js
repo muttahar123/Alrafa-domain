@@ -58,13 +58,13 @@ export const statistics = [
 export const allProducts = [
   {
     id: 0,
-    name: "Apple Watch Series 10 42mm",
-    price: 1599,
+    name: "JBL Tune 720BT Headphone",
+    price: 249,
     description:
-      "Apple Watch Series 10 Aluminum Case GPS + Cellular 42mm Sport Colours available Rose gold, Silver, Jetblack",
-    category: "Watches",
+      "JBL Headphones white color Tune 720BT",
+    category: "Airpods",
     image:
-      "https://i0.wp.com/gsmart.pk/wp-content/uploads/2024/09/Apple-Watch-Series-10-Aluminum-Case-GPS-Cellular-42mm-Sport-Band-Lake-Green-.jpg?fit=2000%2C2000&ssl=1",
+      "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw160915e6/01.JBL_Tune%20720BT_Product%20Image_Hero_White.png?sw=535&sh=535",
     rating: { rate: 3.9, count: 120 },
   },
   {
@@ -429,6 +429,61 @@ export const allProducts = [
     image:
       "https://www.apple.com/v/airpods-max/h/images/overview/bento/purple/bento_1_airpod_max_purple__2udwesqoiyq2_xlarge.jpg",
     rating: { rate: 2.1, count: 430 },
+  },
+  {
+    id: 34,
+    name: "Apple Watch Series 10 42mm",
+    price: 1599,
+    description:
+      "Apple Watch Series 10 Aluminum Case GPS + Cellular 42mm Sport Colours available Rose gold, Silver, Jetblack",
+    category: "Watches",
+    image:
+      "https://i0.wp.com/gsmart.pk/wp-content/uploads/2024/09/Apple-Watch-Series-10-Aluminum-Case-GPS-Cellular-42mm-Sport-Band-Lake-Green-.jpg?fit=2000%2C2000&ssl=1",
+    rating: { rate: 3.9, count: 120 },
+  },
+  {
+    id: 35,
+    name: "JBL Tune 510 Headphone",
+    price: 99,
+    description:
+      "JBL Headphones white color Tune 720BT",
+    category: "Airpods",
+    image:
+      "https://www.bing.com/th?id=OIP.DpO9BvSC8255RfrqM4QGqgHaHa&w=181&h=185&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+    rating: { rate: 3.9, count: 120 },
+  },
+  {
+    id: 36,
+    name: "JBL Live 670NC Headphones",
+    price: 449,
+    description:
+      "JBL Headphones white color Tune 670NC",
+    category: "Airpods",
+    image:
+      "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw350bd7db/JBL_Live%20670NC_Product%20Image_Hero_Black.png?sw=535&sh=535",
+    rating: { rate: 3.9, count: 120 },
+  },
+  {
+    id: 37,
+    name: "JBL Tune 520 Headphone",
+    price: 139,
+    description:
+      "JBL Headphones white color Tune 520",
+    category: "Airpods",
+    image:
+      "https://www.bing.com/th?id=OIP.DpO9BvSC8255RfrqM4QGqgHaHa&w=181&h=185&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+    rating: { rate: 3.9, count: 120 },
+  },
+  {
+    id: 38,
+    name: "JBL Tune 660NC Headphone",
+    price: 99,
+    description:
+      "JBL Headphones Black color Tune 660NC",
+    category: "Airpods",
+    image:
+      "https://cdn.mos.cms.futurecdn.net/a4kKf4mT5XhbMfMHVhnjP6-1920-80.jpg.webp",
+    rating: { rate: 3.9, count: 120 },
   },
 ];
 
