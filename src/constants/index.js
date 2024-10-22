@@ -485,6 +485,28 @@ export const allProducts = [
       "https://cdn.mos.cms.futurecdn.net/a4kKf4mT5XhbMfMHVhnjP6-1920-80.jpg.webp",
     rating: { rate: 3.9, count: 120 },
   },
+  {
+    id: 39,
+    name: "JBL Live 770NC Headphone",
+    price: 499,
+    description:
+      "JBL Headphones Golden color Live 770NC",
+    category: "Airpods",
+    image:
+      "https://mobiel-product.imgix.net/kd67sqztqhtrovxangw3r2qmm8yd?w=420&h=420&dpr=1&trim=none&auto=compress%2Cformat&q=95",
+    rating: { rate: 3.9, count: 120 },
+  },
+  {
+    id: 40,
+    name: "JBL Tune 770 Headphone",
+    price: 329,
+    description:
+      "JBL Headphones Golden color tune 770",
+    category: "Airpods",
+    image:
+      "https://mobiel-product.imgix.net/zd3flqjo7iovhubl8q2ur8sq6fwb?w=420&h=420&dpr=1&trim=none&auto=compress%2Cformat&q=95",
+    rating: { rate: 3.9, count: 120 },
+  },
 ];
 
 export const services = [
