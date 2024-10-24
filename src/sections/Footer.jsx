@@ -69,7 +69,7 @@ const Footer = () => {
             width={20}
             height={20}
             className="rounded-full m-0"
-          />
+          /> <h1>2024</h1>
         </div>
         <p className="font-montserrat cursor-pointer">Terms & Conditions</p>
       </div>

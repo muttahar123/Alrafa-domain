@@ -113,7 +113,7 @@ export const allProducts = [
   },
   {
     id: 5,
-    name: "Apple AirPods Max 2 2024 MWW73 ",
+    name: "Apple AirPods Max 2 2024  ",
     price: 1999,
     description:
       "Apple AirPods Max 2 2024 - MWW73  (:Colours are availible:) MWW43 - Midnight MWW53 - Straight MWW63 - Blue MWW73 - Orange MWW83 - Purple",
@@ -124,7 +124,7 @@ export const allProducts = [
   },
   {
     id: 6,
-    name: "Apple iPad Pro 11″ M4 256GB (MVV83)",
+    name: "Apple iPad Pro 11″ M4 256GB ",
     price: 3450,
     description:
       "Apple iPad Pro 11″ M4 Chip 256GB WiFi (MVV83)...",
@@ -135,7 +135,7 @@ export const allProducts = [
   },
   {
     id: 7,
-    name: "Apple iPad Pro 11″ M4 512GB (MVV83)",
+    name: "Apple iPad Pro 11″ M4 512GB",
     price: 3800,
     description:
       "Apple iPad Pro 11″ M4 Chip 512GB WiFi (MVV83)...",
@@ -179,7 +179,7 @@ export const allProducts = [
   },
   {
     id: 11,
-    name: "Apple MM9L3 10.9″ iPad Air 5thGen 256GB",
+    name: "Apple 10.9″ iPad Air 5thGen 256GB",
     price: 2200,
     description:
       "Apple MM9L3 10.9″ iPad Air with M1 Chip 5th Gen, 256GB, Wi-Fi Only, Space Gray",
@@ -212,7 +212,7 @@ export const allProducts = [
   },
   {
     id: 14,
-    name: "Apple 8.3″ iPad Mini (6th Gen, 64GB)",
+    name: "Apple 8.3″ iPad Mini (6Gen, 64GB)",
     price: 600,
     description:
       "Apple 8.3″ iPad Mini (6th Gen, 64GB, Wi-Fi Only)",
@@ -223,7 +223,7 @@ export const allProducts = [
   },
   {
     id: 15,
-    name: "Apple iPad 10.9' 10th Gen - 64GB MPQ03",
+    name: "Apple iPad 10.9' 10th Gen - 64GB",
     price: 1300,
     description:
       "Apple iPad 10.9' 10th Gen - 64GB - WiFi - Silver MPQ03",
@@ -234,7 +234,7 @@ export const allProducts = [
   },
   {
     id: 16,
-    name: "Apple iPad 10.MPQ039' 10th Gen - 256GB ",
+    name: "Apple iPad 10' 10th Gen - 256GB ",
     price: 1800,
     description:
       "Apple iPad 10.MPQ039' 10th Gen - 256GB - WiFi - Silver ",
@@ -256,7 +256,7 @@ export const allProducts = [
   },
   {
     id: 18,
-    name: "Samsung Galaxy S24 Ultra 12GB 512GB",
+    name: "Samsung Galaxy S24 Ultra",
     price: 3299,
     description:
       "Samsung Galaxy S24 Ultra 12GB 512GB",
@@ -267,7 +267,7 @@ export const allProducts = [
   },
   {
     id: 19,
-    name: "Apple iPad Air M2 2024 6th Gen 13' 128GB",
+    name: "Apple iPad Air M2 6Gen 13' 128GB",
     price: 2650,
     description:
       "Apple iPad Air M2 2024 6th Gen 13' 128GB Wi-Fi.",
@@ -278,7 +278,7 @@ export const allProducts = [
   }, 
   {
     id: 20,
-    name: "Apple iPad Air 6thGen M2 (256GB, WiFi) ",
+    name: "Apple iPad Air 6thGen M2 256GB",
     price: 2650,
     description:
       "Apple iPad Air 6th Generation M2 Chip | 11inch Display (256GB, WiFi) ",
