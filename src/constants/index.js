@@ -556,11 +556,12 @@ export const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "iPhone 13 Pro Max", link: "/" },
-      { name: "MacBook Pro M1", link: "/" },
-      { name: "Dell XPS 15", link: "/" },
-      { name: "iPhone 14", link: "/" },
-      { name: "Samsung Galaxy S21", link: "/" },
+      { name: "iPhone 16 Pro Max", link: "/" },
+      { name: "Samsung Note 20 Ultra", link: "/" },
+      { name: "Apple Ipad Pro", link: "/" },
+      { name: "Apple Airpods", link: "/" },
+      { name: "Apple Watches", link: "/" },
+      { name: "JBL Headphones", link: "/" },
     ],
   },
   {
