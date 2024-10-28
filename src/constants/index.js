@@ -561,15 +561,15 @@ export const footerLinks = [
       { name: "Apple Ipad Pro", link: "/" },
       { name: "Apple Airpods", link: "/" },
       { name: "Apple Watches", link: "/" },
-      { name: "JBL Headphones", link: "/" },
+      { name: "JBL Watches", link: "/" },
     ],
   },
   {
     title: "Help",
     links: [
       { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "Shipping policy", link: "/" },
+      { name: "Track Shipment", link: "/" },
+      { name: "Deliveries", link: "/" },
       { name: "Return policy", link: "/" },
       { name: "Payment policy", link: "/" },
     ],
