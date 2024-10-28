@@ -554,7 +554,7 @@ export const reviews = [
 
 export const footerLinks = [
   {
-    title: "Products",
+    title: "Popular Searches",
     links: [
       { name: "iPhone 16 Pro Max", link: "/" },
       { name: "Samsung Note 20 Ultra", link: "/" },
