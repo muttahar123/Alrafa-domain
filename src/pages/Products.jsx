@@ -33,14 +33,15 @@ export default function Products() {
       <div id="products" className="mt-0">
         <div className="py-4 w-full dark-bg">
           <div className="flex justify-between items-center max-container">
-            <img
+          <Link to={"/"}>
+          <img
               src={isDarkMode ? headerLogoDark : headerLogoLight}
               alt="Logo"
               width={60}
               height={10}
               className="dark-text-special"
             />
-
+               </Link>
             <h2 className="text-3xl font-palanquin font-bold text-black dark:text-coral-red">
               Products
             </h2>
