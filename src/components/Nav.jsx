@@ -15,15 +15,14 @@ import {
   menuLight,
 } from "../assets/icons";
 import { headerLogoDark, headerLogoLight } from "../assets/images";
-import { navLinks } from "../constants";
+import { navLinks, allProducts } from "../constants"; // Import the list of products
 import { Link as ScrollLink } from "react-scroll";
 
+// Importing the search icon from React Icons
+import { FaSearch } from "react-icons/fa";
 
-
-//? Main component
 const Nav = () => {
-
-  //? State to track activatd mode e.g:dark or light
+  //? State to track activated mode e.g: dark or light
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
 
   //? Function to toggle/turn on dark mode
@@ -41,6 +40,8 @@ const Nav = () => {
 
   //? State to manage the visibility of the menu/navbar for mobile screens
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState(""); // State for search input
+  const [filteredProducts, setFilteredProducts] = useState([]); // State to store filtered products
 
   //? Function to toggle the menu/navbar visibility
   const toggleMenu = () => {
@@ -54,6 +55,24 @@ const Nav = () => {
       document.body.style.overflow = "auto";
     }
   }, [isMenuOpen]);
+
+  useEffect(() => {
+    // Filter products based on the search query whenever it changes
+    const filtered = allProducts.filter((product) =>
+      product.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    setFilteredProducts(filtered);
+  }, [searchQuery]); // Trigger effect on searchQuery change
+
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value); // Update search query
+  };
+
+  const handleSearchSubmit = (event) => {
+    event.preventDefault();
+    // You can handle form submission here (e.g., redirect to a page or log the search term)
+    console.log("Searching for:", searchQuery);
+  };
 
   return (
     <header className="padding-x py-8 absolute z-20 w-full dark-bg">
@@ -90,6 +109,39 @@ const Nav = () => {
             </li>
           ))}
         </ul>
+
+        {/* Search Bar */}
+        <div className="relative flex items-center mr-4"> {/* Added right margin for space */}
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={handleSearchChange}
+            onKeyDown={(e) => e.key === "Enter" && handleSearchSubmit(e)} // Search on Enter
+            placeholder="Search..."
+            className="dark:bg-[#2c2c2c] dark:text-white p-2 rounded-full w-[200px] sm:w-[250px] text-sm border-2 border-black dark:border-dark-c2" // Lighter black background for dark mode
+          />
+          <button
+            onClick={handleSearchSubmit}
+            className="absolute right-2 top-1/2 transform -translate-y-1/2"
+          >
+            <FaSearch className="w-[20px] h-[20px] text-dark-c2 dark:text-white" />
+          </button>
+
+          {/* Dropdown for filtered products */}
+          {searchQuery && filteredProducts.length > 0 && (
+            <div className="absolute top-[50px] left-0 w-full bg-white dark:bg-[#333] border-2 border-gray-300 dark:border-dark-c2 rounded-md max-h-[200px] overflow-y-auto z-10">
+              {filteredProducts.map((product) => (
+                <Link
+                  to={`/products/${product.id}`}
+                  key={product.id}
+                  className="block px-4 py-2 text-sm text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+                >
+                  {product.name}
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
 
         <a
           href="/"
