@@ -117,7 +117,7 @@ const Hero = () => {
                 index={index}
                 img={image}
                 setBigProductImage={setBigProductImage}
-                bigProductImage={bigProductImage}
+                bigProductImage={bigProductImage} 
               />
             </div>
           ))}
